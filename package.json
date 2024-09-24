@@ -6,7 +6,15 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/cors": "^1.1.1",
+    "@elysiajs/jwt": "^1.1.1",
+    "@elysiajs/opentelemetry": "^1.1.5",
+    "@elysiajs/swagger": "^1.1.1",
+    "elysia": "latest",
+    "elysia-helmet": "^2.0.0",
+    "elysia-ip": "^1.0.7",
+    "elysia-rate-limit": "^4.1.0",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "bun-types": "latest"
